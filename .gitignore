@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Local tool settings
+.claude/settings.local.json
+
+# Runtime output (contains MACs, hostnames, room surveys)
+*.survey.json
+*.survey.json.tmp
+state.json
+map.png
+map.svg
+map.pdf

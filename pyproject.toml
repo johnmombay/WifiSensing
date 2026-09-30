@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wifisense"
+version = "0.1.0"
+description = "WiFi device discovery and RSSI-based presence sensing with a live map"
+requires-python = ">=3.10"
+dependencies = ["matplotlib>=3.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+wifisense = "wifisense.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["wifisense*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,23 @@
+{
+  "name": "Office - 2nd floor (example)",
+  "width_m": 12,
+  "height_m": 8,
+  "access_point": { "x": 6.0, "y": 4.2 },
+  "host": { "x": 5.5, "y": 5.0 },
+  "access_points": {
+    "24:a4:3c:11:22:33": { "x": 6.0, "y": 4.2, "label": "AP main" }
+  },
+  "zones": [
+    { "name": "Finance desks", "x": 0.4, "y": 4.6, "w": 4.6, "h": 3.0 },
+    { "name": "Ops desks", "x": 0.4, "y": 0.4, "w": 4.6, "h": 3.6 },
+    { "name": "Meeting room", "x": 7.6, "y": 4.6, "w": 4.0, "h": 3.0 },
+    { "name": "Print / IT corner", "x": 7.6, "y": 0.4, "w": 4.0, "h": 2.0 }
+  ],
+  "known_devices": {
+    "f8:b1:56:aa:01:01": { "label": "FIN-01 desk", "x": 1.4, "y": 6.6 },
+    "3c:d9:2b:aa:02:02": { "label": "OPS-02 desk", "x": 1.4, "y": 2.2 },
+    "28:d2:44:aa:03:03": { "label": "HR-03 desk", "x": 3.6, "y": 6.6 },
+    "9c:8e:99:dd:0a:0a": { "label": "Printer", "x": 10.8, "y": 1.2 },
+    "srv-files01": { "label": "File server", "x": 8.4, "y": 1.2 }
+  }
+}
